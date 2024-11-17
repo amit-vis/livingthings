@@ -1,0 +1,56 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+.sub-form-container{
+    border: 2px double blue;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: cadetblue;
+    color: white;
+    width: 40%;
+    font-family: monospace;
+}
+.sub-form-container label{
+    font-size: 1.1rem;
+}
+.sub-form-container input{
+    width: 60%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(43, 217, 226);
+    margin-left: 2%;
+    margin-top: 5%;
+    outline: none;
+    color: azure;
+    font-size: 1.1rem;
+}
+.sub-form-container input::placeholder{
+    color: aliceblue;
+    font-size: 1.1rem;
+}
+
+.sub-form-container button{
+    margin-top: 2%;
+   padding: 2%;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 2%;
+   text-transform: capitalize;
+   font-weight: 700;
+   background-color: brown;
+   color: aliceblue;
+}
+
+.sub-form-container a{
+    font-size: 1.1rem;
+}
+.sub-form-container .error-msg{
+    color: red;
+    font-size: 1.3rem;
+}
